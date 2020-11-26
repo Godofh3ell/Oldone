@@ -58,3 +58,5 @@ class Config(object):
     UPLOAD_TO_CLOUD_WHEN_RENAME = os.environ.get("UPLOAD_TO_CLOUD_WHEN_RENAME", "N")
     GP_LINKS_API_KEY = os.environ.get("GP_LINKS_API_KEY", None)
     GP_LINKS_COMMAND = os.environ.get("GP_LINKS_COMMAND", "gplink")
+    UPLOAD_AS_VIDEO = os.environ.get("UPLOAD_AS_VIDEO", "uploadasvideo")
+    UPLOAD_AS_FILE = os.environ.get("UPLOAD_AS_FILE", "uploadasfile")
