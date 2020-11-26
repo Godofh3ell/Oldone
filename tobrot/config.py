@@ -3,7 +3,7 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    CHANNEL_URL = os.environ.get("CHANNEL_URL", None)
+    CHANNEL_URL = os.environ.get("CHANNEL_URL", ")
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
     # The Telegram API things
     APP_ID = int(os.environ.get("APP_ID", 12345))
@@ -59,4 +59,4 @@ class Config(object):
     GP_LINKS_API_KEY = os.environ.get("GP_LINKS_API_KEY", None)
     GP_LINKS_COMMAND = os.environ.get("GP_LINKS_COMMAND", "gplink")
     UPLOAD_AS_VIDEO = os.environ.get("UPLOAD_AS_VIDEO", "uploadasvideo")
-    UPLOAD_AS_FILE = os.environ.get("UPLOAD_AS_FILE", "uploadasfile")
+    UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "uploadasdoc")
